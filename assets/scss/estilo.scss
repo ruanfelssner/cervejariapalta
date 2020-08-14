@@ -1,0 +1,112 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+@media (min-width: 1200px){  
+    .container {
+        max-width: 1440px;
+    }
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    width:100%;
+    overflow-x:hidden;
+}
+header{
+    background:#FFF;
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color:#000;
+                    font-weight: 600;
+                    font-size:18px;
+                    padding:1rem;
+                }
+            }
+            button{
+                background:none;
+                border:none;
+                font-size:25px;
+                margin:.5rem;
+            }
+        }
+    }
+}
+
+.slideShow{
+    margin:1rem 0;
+}
+
+.clube{
+    margin:2rem 0;
+}
+
+.descricoes{
+    img{
+        display:inline-block;
+    }
+    h2{
+        font-size:18px;
+        font-weight: bold;
+        margin-bottom:0;
+    }
+    p{
+        display:inline-block;
+        margin-bottom:0;
+    }
+}
+
+.loja{
+    margin:2rem 0;
+    h1{
+        font-size:55px;
+        font-weight:800;
+    }
+    img{
+        border-radius:30px;
+        overflow:hidden;
+    }
+    h2{
+        font-size:25px;
+        font-weight: 600;
+        margin-top:.5rem;
+        margin-left:.5rem;
+        margin-bottom:0;
+    }
+    p{
+        margin-left:.5rem;
+        margin-bottom:1rem;
+    }
+}
+
+footer{
+    background:#f2f2f2;
+    padding:4rem 0;
+    p{
+        color:#838383;
+        font-size:18px;
+        margin-top:1rem;
+    }
+    h2{
+        font-weight: 600;
+    }
+    ul{
+        margin:0;
+        padding:0;
+        li{
+            list-style:none;
+            a{
+                color:#000;
+            }
+        }
+    }
+    form{
+        textarea{
+            width:100%;
+            border-radius:30px;
+            border:0;
+            height:100px;
+        }
+    }
+}
